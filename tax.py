@@ -9,7 +9,7 @@ pre_price = 1.1111
 # 如是RSU，行权价格为0
 options = [[10000, 0.1], [5000, 0.2]]
 
-# 上市后行权需要缴纳的税金
+# 上市前行权需要缴纳的税金
 @np.vectorize
 def pre_tax(sale):
   """
